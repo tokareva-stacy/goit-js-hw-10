@@ -1,0 +1,102 @@
+.go-home-link {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+  padding: 5px 10px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.go-home-link:hover {
+  background-color: #e9ecef;
+}
+
+.timer-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  margin-top: 0;
+}
+
+.input-button-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input#datetime-picker {
+  padding: 8px 12px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  font-size: 18px;
+  margin-right: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+button[data-start] {
+  padding: 8px 25px;
+  background-color: #e0e0e0;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button[data-start]:disabled {
+  background-color: #f0f0f0;
+  color: #999;
+  border-color: #e0e0e0;
+  cursor: not-allowed;
+}
+
+.timer {
+  display: flex;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  min-width: unset;
+}
+
+.value {
+  font-size: 60px;
+  font-weight: normal;
+  line-height: 1;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #666;
+  margin-top: 5px;
+}
+
+.flatpickr-calendar {
+  font-family: Arial, sans-serif;
+}
+
+.flatpickr-input {
+  background-color: white;
+}
